@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "Recipe Helper",
+  "version": "1.0",
+  "description": "Get recipes based on ingredients and quantities",
+  "permissions": ["storage"],
+  "host_permissions": [
+    "https://api.spoonacular.com/*"
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
+
+  
